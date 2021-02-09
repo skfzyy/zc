@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/uploadfile.css">
+    <link rel="stylesheet" type="text/css" href="../css/Common.css">
+    <script src="../js/lib/jquery-3.5.1.js"></script>
+    <script src="../js/render/uploadfile.js"></script>
+</head>
+<body>
+<div id="title">独龙族知识图谱</div>
+<div id="navigation">
+    <ul>
+        <li><a href="/">首页</a></li>
+        <li><a href="/index">知识图谱</a></li>
+        <li><a href="/semantic">语义查询</a></li>
+    </ul>
+</div>
+<div id="content">
+    <form id="upload_file_form" method="post" enctype="multipart/form-data" action="/upload_update">
+        <input type="file" id="upload_file" name="add_upload_file" value="点击上传" autocomplete="off">
+    </form>
+    <div id="upload_com">
+        <input type="text" readonly=true id="file_name" autocomplete="off" placeholder="上传增量文件">
+        <img id="upload_icon" src="../resources/img/upload_icon.svg" height="50px" width="50px">
+    </div>
+
+    <div id="des">
+        在这里输入你要上传的文件相关的描述
+    </div>
+
+    <div id="button">
+        <div id="add_construct" class="button">增量构建</div>
+        <div id="reback" class="button">撤销</div>
+
+    </div>
+</div>
+</body>
+</html>

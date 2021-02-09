@@ -1,0 +1,40 @@
+#navigation{
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+li:active{
+    list-style: none;
+    cursor: pointer;
+
+}
+
+li:hover{
+    background-color: gray;
+}
+
+ul{
+    padding: 0px;
+    font-size: 20px;
+}
+
+#title{
+    font-size: 30px;
+    width: 100%;
+    margin: auto;
+    height: 45px;
+    text-align:center;
+}
+
+#content{
+    margin-right: 210px;
+    margin-left: 210px;
+    text-align: center;
+}

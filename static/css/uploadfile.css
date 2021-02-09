@@ -1,0 +1,64 @@
+#upload_file_form{
+    display: none;
+
+}
+
+#file_name{
+    float: left;
+    width: 300px;
+    height: 34px;
+}
+
+#upload_icon{
+    float: left;
+    margin-top: -7px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#upload_com{
+    width: 370px;
+    margin: auto;
+    margin-top: 60px;
+    height: 50px;
+}
+
+#des{
+    height: 300px;
+    width: 372px;
+    margin: auto;
+    border-radius: 24px;
+    border-width: 3px;
+    border-color: #000000;
+    border-style: solid;
+    margin-top: 20px;
+}
+
+.button{
+    background-color: yellow;
+    cursor: pointer;
+    font-size: 20px;
+    /*float: left;*/
+}
+
+.button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+#add_construct{
+    float: left;
+    margin-left: -90px;
+}
+
+#reback{
+    float: right;
+    margin-right: -90px;
+
+}
+
+#button{
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+}

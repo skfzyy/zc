@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/custom_kg.css">
+    <link rel="stylesheet" type="text/css" href="../css/Common.css">
+    <script src="../js/lib/jquery-3.5.1.js"></script>
+    <script src="../js/render/custom_kg.js"></script>
+</head>
+<body>
+<div id="title">知识图谱选择</div>
+<div id="navigation">
+    <ul>
+        <li><a href="/">首页</a></li>
+        <li><a href="/index">知识图谱</a></li>
+        <li><a href="/semantic">语义查询</a></li>
+    </ul>
+</div>
+<div id="content">
+    <form id="upload_file_form" method="post" enctype="multipart/form-data" action="/upload_custom_file">
+        <input type="file" id="upload_file_in" name="add_upload_file" value="点击上传" autocomplete="off">
+    </form>
+    <div id="show_upload_file_detail">
+        <div class="show_name">
+            <label id="kg_name">知识图谱名称</label>
+            <input type="text" id="kg_name_in" autocomplete="off" class="content">
+        </div>
+        <div class="show_file">
+            <label id="kg_file">知识图谱文件</label>
+            <input type="text" id="kg_file_in" autocomplete="off" class="content" readonly=true placeholder="知识图谱文件">
+            <div style="width: 110px;margin: auto;margin-top:10px">
+                <div id="upload_file">上传文件</div>
+            </div>
+        </div>
+    </div>
+    <div id="des">
+
+    </div>
+    <div style="width: 300px;margin:auto;margin-top: 20px">
+        <div id="button_construct" class="button">构建</div>
+        <div id="reback" class="button">撤销</div>
+    </div>
+
+</div>
+</body>
+</html>

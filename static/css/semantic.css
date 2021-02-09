@@ -1,0 +1,42 @@
+#search_content {
+    width: 230px;
+    margin: auto;
+    height: 50px;
+}
+#word_in{
+    height: 30px;
+    width: 162px;
+    float: left;
+    font-size: 18px;
+}
+
+#search{
+    width: 50px;
+    height: 34px;
+    float: left;
+    background-color: yellow;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#search:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+#container{
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    border-radius: 24px;
+    border-width: 3px;
+    border-color: #000000;
+    border-style: solid;
+}
+
+#canvas{
+    height: 700px;
+    width: 700px;
+    margin: auto;
+}
