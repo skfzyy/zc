@@ -7,14 +7,15 @@
     <link rel="stylesheet" type="text/css" href="../css/Common.css">
     <script src="../js/lib/jquery-3.5.1.js"></script>
     <script src="../js/render/custom_kg.js"></script>
+    <script src="../js/render/common.js"></script>
 </head>
 <body>
 <div id="title">知识图谱选择</div>
 <div id="navigation">
     <ul>
-        <li><a href="/">首页</a></li>
-        <li><a href="/index">知识图谱</a></li>
-        <li><a href="/semantic">语义查询</a></li>
+        <li><img src="../resources/img/dian.svg" height="20px" width="20px"><a href="/">首页</a></li>
+        <li><img src="../resources/img/dian_se.svg" height="20px" width="20px"><a href="/index">知识图谱</a></li>
+        <li><img src="../resources/img/dian.svg" height="20px" width="20px"><a href="/semantic">语义查询</a></li>
     </ul>
 </div>
 <div id="content">
@@ -30,7 +31,7 @@
             <label id="kg_file">知识图谱文件</label>
             <input type="text" id="kg_file_in" autocomplete="off" class="content" readonly=true placeholder="知识图谱文件">
             <div style="width: 110px;margin: auto;margin-top:10px">
-                <div id="upload_file">上传文件</div>
+                <div id="upload_file" class="button">上传文件</div>
             </div>
         </div>
     </div>

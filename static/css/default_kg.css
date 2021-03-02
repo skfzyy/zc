@@ -1,18 +1,24 @@
 #canvas_draw{
     height: 800px;
     width: 1000px;
+	border-radius: 24px;
+	border-width: 2px;
+	border-color: #000;
+	border-style: solid;
 }
 
 #add_update{
-    background-color: yellow;
-    font-size: 20px;
-    text-align: center;
-    width: 100px;
-    margin: auto;
-    cursor: pointer;;
+	margin: auto;
+    display:block;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#98bf21;
+	width:120px;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
 }
 
 #add_update:hover{
-    background-color: red;
-    cursor: pointer;
+    background-color:#7A991A;
 }
