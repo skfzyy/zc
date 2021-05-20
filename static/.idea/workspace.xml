@@ -20,37 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e1872c-ab3d-4415-a0bb-5ca674595e61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/render/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/img/dian.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/img/dian_se.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/static.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom_kg.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom_kg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/default_kg.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default_kg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/semantic.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/semantic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/uploadfile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/uploadfile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lib/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lib/d3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lib/jquery-3.5.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lib/jquery-3.5.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lib/jquery.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lib/jquery.form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/render/custom_kg.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/render/custom_kg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/render/default_kg.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/render/default_kg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/render/semantic.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/render/semantic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/render/uploadfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/render/uploadfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/custom_kg.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/custom_kg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/default_kg.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/default_kg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/semantic.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/semantic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/uploadfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/uploadfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/upload_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/img/upload_icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/zhishitupu-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/img/zhishitupu-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/zhishitupu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/img/zhishitupu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/kg/dulong.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/kg/dulong.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/d38726c33d817aed5d6ce0033eb7d7c6/update_result.json" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/d38726c33d817aed5d6ce0033eb7d7c6/update_result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +74,8 @@
       <updated>1612790089911</updated>
       <workItem from="1612790091047" duration="19369000" />
       <workItem from="1614140332436" duration="254000" />
-      <workItem from="1614696273561" duration="3958000" />
+      <workItem from="1614696273561" duration="5600000" />
+      <workItem from="1615298150105" duration="42000" />
     </task>
     <servers />
   </component>
@@ -121,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1382" y="-1251" width="871" height="1440" key="dock-window-1" timestamp="1612851110833">

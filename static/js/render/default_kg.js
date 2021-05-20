@@ -45,7 +45,14 @@ $(function () {
                 return d.nodeName;
             }).enter()
                 .append("circle").attr("r", 7).attr("fill", (d) => {
-                return "green";
+                    // console.log(d);
+                    if((d.nodeName=="捕鱼")||(d.nodeName=="铓锣")||(d.nodeName=="剽牛舞")||(d.nodeName=="剽牛祭天")||(d.nodeName=="篾箩")||(d.nodeName=="火塘")||
+                        (d.nodeName=="刀耕火种")){
+                        return "red";
+                    }else{
+                        return "green";
+                    }
+
             });
             var link=u.selectAll("line").data(data.edges).enter().append("line").attr("stroke","#000000")
                 .attr("stroke_width",3).attr("x1",(d)=>{
@@ -117,7 +124,12 @@ $(function () {
                 return d.nodeName;
             }).enter()
                 .append("circle").attr("r", 7).attr("fill", (d) => {
-                return "green";
+                if((d.nodeName=="捕鱼")||(d.nodeName=="铓锣")||(d.nodeName=="剽牛舞")||(d.nodeName=="剽牛祭天")||(d.nodeName=="篾箩")||(d.nodeName=="火塘")||
+                        (d.nodeName=="刀耕火种")){
+                        return "red";
+                    }else{
+                        return "green";
+                    }
             });
             var link=u.selectAll("line").data(data.edges).enter().append("line").attr("stroke","#000000")
                 .attr("stroke_width",3).attr("x1",(d)=>{
